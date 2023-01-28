@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo {
+  display: inline-block;
+  /* height: 5vh; */
+  margin: 2.7vh 5vw;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.logo a{
+  text-decoration: none;
+  color: #c21010;
+
+}
+.nav {
+  float: right;
+}
+nav {
+  height: 8vh;
+  /* background-color: #ffffff; */
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  height: 10vh;
+  font-size: 1.3vw;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.nav ul li {
+  align-items: center;
+  padding: 2.8vh;
+  border-radius: 8vh;
+  font-weight: bold;
+  position: relative;
+}
+.nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  transition: all 0.2s ease-in-out;
+  color: #b52626;
+}
+.logo a:hover{
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+}
